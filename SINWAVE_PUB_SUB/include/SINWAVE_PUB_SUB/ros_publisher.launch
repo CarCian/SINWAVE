@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<launch>
+	<node pkg="ros_topic" name="ros_topic_publisher" type="topic_publisher_param" output="screen">
+		<param name="my_num" value="13" type="int" />
+	</node>
+</launch>
